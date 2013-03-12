@@ -1,0 +1,24 @@
+{
+    "name": "indexeddb-test",
+    "version": "0.1.0",
+    "author": "rgaskill <roarke.gaskill@gmail.com>",
+    "description": "Simple Demo Test Scripts",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:rgaskill/indexeddb-test.git"
+    },
+    "keywords": [
+        "indexedb",
+        "tests"
+    ],
+    "license": "MIT",
+    "engines": {
+        "node": ">=0.8"
+    },
+    "devDependencies": {
+        "testacular": "~0.6"
+    },
+    "scripts": {
+        "test": "./node_modules/.bin/testacular start --single-run --browsers Chrome"
+    }
+}
