@@ -1,0 +1,1 @@
+Simple testacular test to demonstrate IndexedDb.
