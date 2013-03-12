@@ -19,6 +19,6 @@
         "testacular": "~0.6"
     },
     "scripts": {
-        "test": "./node_modules/.bin/testacular start --single-run --browsers Chrome"
+        "test": "./node_modules/.bin/testacular start --single-run --browsers Firefox"
     }
 }
